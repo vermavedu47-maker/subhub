@@ -1,3 +1,5 @@
+import { initDB } from "../lib/initSupabase";
+initDB(); // this will create the table automatically
 export default function Signup() {
   return (
     <div style={{ padding: 40 }}>
