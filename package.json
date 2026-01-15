@@ -6,7 +6,10 @@
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
+  "dependencies": {"tailwindcss": "^3.4.1",
+"postcss": "^8.4.31",
+"autoprefixer": "^10.4.16"
+
     "next": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
