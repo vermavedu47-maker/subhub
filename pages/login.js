@@ -1,3 +1,5 @@
+import { initDB } from "../lib/initSupabase";
+initDB(); // this will create the table automatically
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 
